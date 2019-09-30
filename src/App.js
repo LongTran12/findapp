@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import SectionBrand from './components/SectionBrand'
-import Filter from './components/Filter'
-
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-      <SectionBrand nameCate="social" />
-      <Filter />
+      <Header />
+      <Footer />
     </>
   );
 }

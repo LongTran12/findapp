@@ -1,12 +1,23 @@
 [
     {
+        "id": 0,
+        "name": "belive",
+        "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/tornado.cash.png",
+        "url": "https://tornado.cash/",
+        "description": "Non-custodial anonymous transactions on Ethereum",
+        "category": "new dapps",
+        "hot": 1,
+        "platform": "tornaldo.cash"
+    },
+    {
         "id": 1,
         "name": "bidali",
         "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/tornado.cash.png",
         "url": "https://tornado.cash/",
         "description": "Non-custodial anonymous transactions on Ethereum",
         "category": "games",
-        "hot": 1
+        "hot": 1,
+        "platform": "tornaldo.cash"
     },
     {
         "id": 2,
@@ -15,7 +26,8 @@
         "url": "https://tornado.cash/",
         "description": "The income-generating social network, enabling anyone to earn money by sharing their wisdom and creativity.",
         "category": "social",
-        "hot": 1
+        "hot": 1,
+        "platform": "tornaldo.cash"
     },
     {
         "id": 3,
@@ -24,7 +36,8 @@
         "url": "https://tornado.cash/",
         "description": "Non-custodial anonymous transactions on Ethereum",
         "category": "staking",
-        "hot": 1
+        "hot": 1,
+        "platform": "shiftly"
     },
     {
         "id": 4,
@@ -33,6 +46,57 @@
         "url": "https://tornado.cash/",
         "description": "Non-custodial anonymous transactions on Ethereum",
         "category": "staking",
-        "hot": 1
+        "hot": 1,
+        "platform": "shiftly"
+    },
+    {
+        "id": 5,
+        "name": "bida",
+        "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/tornado.cash.png",
+        "url": "https://tornado.cash/",
+        "description": "Non-custodial anonymous transactions on Ethereum",
+        "category": "games",
+        "hot": 1,
+        "platform": "tornaldo.cash"
+    },
+    {
+        "id": 6,
+        "name": "loade",
+        "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/tornado.cash.png",
+        "url": "https://tornado.cash/",
+        "description": "Non-custodial anonymous transactions on Ethereum",
+        "category": "games",
+        "hot": 1,
+        "platform": "tornaldo.cash"
+    },
+    {
+        "id": 7,
+        "name": "kingteam",
+        "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/tornado.cash.png",
+        "url": "https://tornado.cash/",
+        "description": "Non-custodial anonymous transactions on Ethereum",
+        "category": "games",
+        "hot": 1,
+        "platform": "tornaldo.cash"
+    },
+    {
+        "id": 8,
+        "name": "laso",
+        "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/dex.ag.png",
+        "url": "https://tornado.cash/",
+        "description": "Non-custodial anonymous transactions on Ethereum",
+        "category": "new dapps",
+        "hot": 1,
+        "platform": "todo"
+    },
+    {
+        "id": 8,
+        "name": "tingla",
+        "logo": "https://raw.githubusercontent.com/TrustWallet/tokens/master/dapps/shiftly.finance.png",
+        "url": "https://tornado.cash/",
+        "description": "Non-custodial anonymous transactions on Ethereum",
+        "category": "new dapps",
+        "hot": 1,
+        "platform": "todo"
     }
 ]
