@@ -1,24 +1,37 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext } from 'react'
 import dataD from '../data/data.json'
-
 const MyContext = createContext();
-
 function SiteContext({ children }) {
-
-    const filterCate = (cate) => data.filter((e) => e.category === cate)
-    const filterCateAll = (cate) => data.filter((e) => e.category.match(cate))
-    const filterName = (name) => data.filter((e) => e.name.match(name) || e.description.match(name) || e.category.match(name))
-    const filterCateFromName = (name, flat, query) => data.filter((e) => e.category.match(name) && e.platform.match(flat) && (e.name.match(query) || e.description.match(query)))
-    const filterPlatform = (platform, cate) => data.filter((e, i) => e.platform.match(platform) && e.category.match(cate))
-    const [data, setdata] = useState(dataD);
-
+    const filterCate = (cate) => dataD.filter((e) => e.category === cate)
+    const filterCateAll = (cate) => dataD.filter((e) => e.category.includes(cate))
+    const filterCateFromName = (flat, query) => {
+        return dataD.filter(
+            (e) => {
+                let nameA = e.name.toLowerCase()
+                let description = e.description.toLowerCase()
+                console.log(description, description.includes(query),
+                    e.platform.includes(flat)
+                    && (nameA.includes(query) || description.includes(query))
+                )
+                return (
+                    e.platform.includes(flat)
+                    && (nameA.includes(query) || description.includes(query))
+                )
+            }
+        )
+    }
+    const filterPlatform = (platform, cate) => {
+        return dataD.filter(
+            (e) => {
+                return e.platform.match(platform) && e.category.match(cate)
+            }
+        )
+    }
     return (
         <MyContext.Provider value={
             {
-                data,
-                setdata,
+                dataD,
                 filterCate,
-                filterName,
                 filterCateFromName,
                 filterCateAll,
                 filterPlatform

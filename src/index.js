@@ -6,7 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import SiteContext from './contexts/SiteContext'
 import Category from './page/Category'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import ContactUs from './page/ContactUs'
 
 function WrapApp() {
 
@@ -16,7 +15,6 @@ function WrapApp() {
                 <Switch>
                     <Route exact path="/" component={App} />
                     <Route exact path="/category/:cate" component={Category} />
-                    <Route exact path="/contact-us" component={ContactUs} />
                 </Switch>
 
             </Router>

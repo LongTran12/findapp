@@ -20,8 +20,9 @@ const Wrap = styled.div`
     display:flex;
     align-items:flex-start;
     justify-content:flex-start;
-    width:33.333%;
+    width:30%;
     margin-bottom:20px;
+    padding:0 15px;
     a{
         display:flex;
         align-items:flex-start;
@@ -52,5 +53,12 @@ const Wrap = styled.div`
             }
         }
     }
-    
+    @media (max-width:768px){
+        padding:0;
+        width:50%;
+    }
+    @media (max-width:480px){
+        padding:0;
+        width:100%;
+    }
 `;
